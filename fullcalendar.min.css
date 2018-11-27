@@ -991,10 +991,38 @@ a.fc-more:hover {
 
 .fc-toolbar.fc-header-toolbar h2{
   width: 100%;
+  font-family: Lato;
+  font-size: 15.6px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #1e1f22;
 }
 
 .fc-toolbar .fc-left {
   width: 100%;
   margin: auto;
   position: absolute;
+}
+
+td.fc-head-container{
+  border-color: #fff;
+  padding: 12px 0;
+}
+
+th.fc-day-header{
+  border-color: #fff;
+}
+
+.fc-day-grid .fc-row.fc-week.fc-widget-content.fc-rigid{
+  height: 25px !important;
+}
+
+.fc-basic-view .fc-body .fc-row{
+  min-height: auto;
+}
+
+td.fc-widget-content .fc-scroller.fc-day-grid-container{
+  overflow: hidden;
+  height: auto !important;
 }

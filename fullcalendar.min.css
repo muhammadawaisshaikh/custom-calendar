@@ -967,3 +967,34 @@ a.fc-more:hover {
 .fc-unthemed .fc-list-empty {
   background-color: #eee;
 }
+
+/* web2.5 updations */
+
+.fc-today-button{
+  display: none;
+}
+
+.fc-button-group .fc-prev-button{
+  position: absolute;
+  left: 0;
+}
+
+.fc-button-group .fc-next-button{
+  position: absolute;
+  right: 0;
+}
+
+.fc-toolbar.fc-header-toolbar {
+  position: relative;
+  padding: 10px 0 10px 0;
+}
+
+.fc-toolbar.fc-header-toolbar h2{
+  width: 100%;
+}
+
+.fc-toolbar .fc-left {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+}

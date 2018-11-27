@@ -1010,6 +1010,10 @@ td.fc-head-container{
   padding: 12px 0;
 }
 
+td.fc-day{
+  border-color: #fff;
+}
+
 th.fc-day-header{
   border-color: #fff;
 }
@@ -1025,4 +1029,8 @@ th.fc-day-header{
 td.fc-widget-content .fc-scroller.fc-day-grid-container{
   overflow: hidden;
   height: auto !important;
+}
+
+tbody tr td.fc-widget-content{
+  border-color: #fff;
 }

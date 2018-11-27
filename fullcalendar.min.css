@@ -1034,3 +1034,12 @@ td.fc-widget-content .fc-scroller.fc-day-grid-container{
 tbody tr td.fc-widget-content{
   border-color: #fff;
 }
+
+.fc-day-number{
+  float: unset !important;
+
+}
+
+td.fc-day-top{
+  text-align: center;
+}

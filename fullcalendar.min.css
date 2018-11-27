@@ -977,11 +977,17 @@ a.fc-more:hover {
 .fc-button-group .fc-prev-button{
   position: absolute;
   left: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
 }
 
 .fc-button-group .fc-next-button{
   position: absolute;
   right: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
 }
 
 .fc-toolbar.fc-header-toolbar {

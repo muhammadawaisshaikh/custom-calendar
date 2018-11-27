@@ -1043,3 +1043,11 @@ tbody tr td.fc-widget-content{
 td.fc-day-top{
   text-align: center;
 }
+
+td.fc-day.fc-today{
+  background: #fff;
+}
+
+td.fc-day-top.fc-today{
+  color: #f5286e;
+}

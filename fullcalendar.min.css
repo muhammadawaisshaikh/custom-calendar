@@ -1037,11 +1037,20 @@ tbody tr td.fc-widget-content{
 
 .fc-day-number{
   float: unset !important;
-
 }
 
 td.fc-day-top{
   text-align: center;
+}
+
+td.fc-widget-content .fc-content-skeleton td.fc-day-top.clicked{
+  text-align: center;
+  width: 23.3px;
+  height: 23.3px;
+  background-image: linear-gradient(47deg, #f5286e, #fc6d43);
+  color: #fff;
+  border-radius: 50%;
+  position: relative;
 }
 
 td.fc-day.fc-today{
